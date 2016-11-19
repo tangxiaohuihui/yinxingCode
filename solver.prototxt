@@ -1,0 +1,14 @@
+net: "D:/caffe/caffe-master/data/myself/train1/train_val.prototxt"
+test_iter: 10
+test_interval: 500
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 100000
+display: 20
+max_iter: 450000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 250
+snapshot_prefix: "D:/caffe/caffe-master/data/myself/train1/result"
+solver_mode: CPU
